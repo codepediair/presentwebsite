@@ -13,7 +13,7 @@ export const navItems = [
      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
      imgClassName: "w-full h-full",
      titleClassName: "justify-end",
-     img: "/b1.svg",
+     img: "./b1.svg",
      spareImg: "",
    },
    {
@@ -44,7 +44,7 @@ export const navItems = [
      imgClassName: "",
      titleClassName: "justify-start",
      img: "/grid.svg",
-     spareImg: "/b4.svg",
+     spareImg: "./b4.svg",
    },
  
    {
@@ -55,7 +55,7 @@ export const navItems = [
      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
      titleClassName: "justify-center md:justify-start lg:justify-center",
      img: "/b5.svg",
-     spareImg: "/grid.svg",
+     spareImg: "./grid.svg",
    },
    {
      id: 6,
@@ -142,19 +142,19 @@ export const navItems = [
      id: 1,
      name: "cloudinary",
      img: "/cloud.svg",
-     nameImg: "/cloudName.svg",
+     nameImg: "./cloudName.svg",
    },
    {
      id: 2,
      name: "appwrite",
      img: "/app.svg",
-     nameImg: "/appName.svg",
+     nameImg: "./appName.svg",
    },
    {
      id: 3,
      name: "HOSTINGER",
      img: "/host.svg",
-     nameImg: "/hostName.svg",
+     nameImg: "./hostName.svg",
    },
    {
      id: 4,
@@ -183,7 +183,7 @@ export const navItems = [
      title: "Mobile App Dev - JSM Tech",
      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
      className: "md:col-span-2", // change to md:col-span-2
-     thumbnail: "/exp2.svg",
+     thumbnail: "./exp2.svg",
    },
    {
      id: 3,
@@ -204,14 +204,14 @@ export const navItems = [
  export const socialMedia = [
    {
      id: 1,
-     img: "/git.svg",
+     img: "./git.svg",
    },
    {
      id: 2,
-     img: "/twit.svg",
+     img: "./twit.svg",
    },
    {
      id: 3,
-     img: "/link.svg",
+     img: "./link.svg",
    },
  ];
